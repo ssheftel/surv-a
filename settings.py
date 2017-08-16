@@ -12,6 +12,8 @@ MONGO_USERNAME = os.environ.get('MONGO_USERNAME')
 MONGO_PASSWORD = os.environ.get('MONGO_PASSWORD')
 MONGO_DBNAME = os.environ.get('MONGO_DBNAME')
 
+# Disable XML - cause it sucks
+XML = False
 
 DOMAIN = {}
 
